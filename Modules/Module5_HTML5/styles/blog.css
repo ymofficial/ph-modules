@@ -1,0 +1,19 @@
+li{
+    text-decoration:solid;
+    color:white;
+    display: inline;
+    margin-right: 15px;
+}
+h1{
+    color: white;
+}
+
+nav{
+    background-color: darkblue;
+    width: 100%;
+    height: 100%;
+}
+footer{
+    margin-top: 550px;
+    text-align: center;
+}
