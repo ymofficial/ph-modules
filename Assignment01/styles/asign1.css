@@ -1,0 +1,164 @@
+body{
+    margin: 20px auto;
+}
+.banner-img{
+    /* width: 1320px;
+    height: 600px;
+    border-radius: 16px;*/
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%)
+    /*
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    
+    
+}
+/*  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+     */
+
+/* .Newyear-txt{
+
+width: 630px;
+text-align: center;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 95px;
+padding-left: 380px;
+padding-bottom: 600px;
+} */
+
+.offer{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.holiday{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+.happy-new-year{
+    margin-top: -200px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.all-cat{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hpy-photo{
+    width: 802.9px;
+    height: 500px;
+    align-items: center;
+}
+.midnight-party{
+    margin-top: -500px;
+    margin-left: 120px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+}
+.party-pic{
+    width: 1320px;
+    height: 600px;
+    
+}
+.midnight-party-extra{
+    margin-left: 120px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-top: -50px;
+}
+.join-now{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-right: 250px;
+    margin-top: 100px;
+}
+.place{
+    background-color:none;
+    text-align: center;
+}
+.div-3{
+    margin-top: 350px;
+}
+.div-3 > .span-red{
+    color: red;
+}
+.join-btn{
+    background-color:#F00;
+    color: white;
+    border: none;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 750px;
+}
+.ellipse1{
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 364.844px;
+    /* background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;*/
+    margin-left: 600px;
+    margin-top: 100px;
+}
+.div-three{
+    margin-left: 1200px;
+    margin-top: -300px;
+}
+.div-one{
+    justify-content: left;
+}
+
+.holiday-div{
+    margin-top: 300px;
+    text-align: center;
+}
+.img-floor{
+    margin-top: 300px;
+    margin-left: 150px;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+}
+.magic-box{
+  
+    
+}
