@@ -246,3 +246,42 @@ padding-bottom: 600px;
     /* line-height: 32px; 160% */
 
  }
+ .search-box{
+    display: flex;
+    margin-left: 700px;
+ }
+
+ /* footer starts from here */
+ .footii{
+    background: black;
+    height: 400px;
+    margin-top: 50px;
+}
+.firstfooter{
+    display: flex;
+    gap: 400px;
+}
+.wow{
+    color: #FFF;
+    padding-top: 100px;
+    padding-left: 110px;
+}
+.owo{
+    color: #FFF;
+    padding-top: 100px;
+    padding-right: 110px;
+}
+.poo{
+    text-align: left;
+}
+.mi{
+    align-items: center;
+    padding-right: 900px;
+    display: flex;
+    padding-bottom: 1px;
+}
+.unsub{
+    align-items: right;
+    color: white;
+    display: flex;
+}
