@@ -68,10 +68,9 @@ padding-bottom: 600px;
     line-height: normal;
 }
 
-.hpy-photo{
-    width: 802.9px;
-    height: 500px;
-    align-items: center;
+.nwyr-div > .hpy-photo{
+    display: block;
+    margin: auto;
 }
 .midnight-party{
     margin-top: -500px;
@@ -84,10 +83,13 @@ padding-bottom: 600px;
     line-height: 88px; /* 137.5% */
     letter-spacing: 7.04px;
 }
-.party-pic{
-    width: 1320px;
-    height: 600px;
+.nwyr-prty-pic > .party-pic{
+    display: block;
+    margin: auto;
     
+}
+.nwyr-prty-pic{
+    margin-top: 200px;
 }
 .midnight-party-extra{
     margin-left: 120px;
@@ -248,8 +250,18 @@ padding-bottom: 600px;
  }
  .search-box{
     display: flex;
-    margin-left: 700px;
+    margin-left: 500px;
+    /* width: 900px;
+    height: 72px; */
+    /* flex-shrink: 0; */
+    /* border-radius: 5px;
+    overflow: hidden; */
+    border-radius: none;
  }
+
+
+
+
 
  /* footer starts from here */
  .footii{
@@ -279,9 +291,11 @@ padding-bottom: 600px;
     padding-right: 900px;
     display: flex;
     padding-bottom: 1px;
+    /* margin: 5px; */
 }
 .unsub{
     align-items: right;
     color: white;
-    display: flex;
+    /* display: flex; */
+    justify-items: end;
 }
