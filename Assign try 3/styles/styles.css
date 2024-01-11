@@ -111,6 +111,16 @@ section{
     line-height: normal;
     text-transform: uppercase;
 }
-
+.sec2-small-img{
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.008px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: -400px;
+    margin-left: 930px;
+}
 
 
