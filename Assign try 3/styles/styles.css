@@ -123,4 +123,122 @@ section{
     margin-left: 930px;
 }
 
+/* section-3 */
+
+.txt-location{
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    display: block;
+    margin: -350px 0px 0px 0px;
+    justify-content: center;
+}
+span{
+    color: #F00;
+}
+.gradient-2{
+    width: 1320px;
+    height: 482px;
+    /* flex-shrink: 0; */
+    /* fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); */
+    display:flex;
+    margin:auto;
+    justify-content: center;
+    margin-top: 200px;
+}
+.join-btn{
+    color:white;
+    background-color: #F00;
+    /* display: inline-flex; */
+    padding: 16px 32px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 10px;
+    border-radius: 8px;
+    /* background: #F00; */
+    /* margin: 50px 500px 0px 0px; */
+    margin-left: 695px;
+    margin-top: 30px;
+    display: flex;
+    border: none;
+}
+
+.sec4-txt1{
+    margin-top: 300px;
+    text-align: left;
+
+}
+
+.new-best-ofr{
+    color: #F00;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 100px;
+}
+
+.coming-soon{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: -16px;
+    margin-left: 100px;
+}
+.extra-txt{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    margin-top: -22px;
+    margin-left: 100px;
+}
+
+.txt-2024{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    margin-top: -275px;
+    margin-left: 1200px;
+}
+.txt-2024-extra{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    margin-left: 1200px;
+    margin-top: -16px;
+}
+
+.sec4-img1{
+    border-radius: 364.844px;
+    /* background: lightgray -91.279px 0px / 150.038% 100% no-repeat; */
+    background-repeat: no-repeat;
+    background-position: top;
+    /* margin-top: -200px; */
+    display: block;
+    margin: auto;
+    margin-top: -250px;
+    background: lightgray;
+
+}
 
