@@ -24,7 +24,8 @@
     height: 600px;
     /* flex-shrink: 0; */
     /* border: 16px; */
-    margin-top: 50px;   
+    margin-top: 50px;
+    /* border-radius: 20px;    */
 }
 
 /* main css */
@@ -242,3 +243,147 @@ span{
 
 }
 
+/* section 5 */
+
+.sec5-txt{
+    margin-top: 100px;
+}
+
+.sec5-txt1{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.sec5-txt2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.sec5-txt3{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+    margin-top: -30px;
+
+}
+
+.sec5-bgimg{
+    display: block;
+    margin: auto;
+    margin-top: 500px;
+}
+
+.sec5-box-img{
+    width: 796.463px;
+    height: 662.07px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: -650px;
+    margin-left: 100px;
+    /* width: 796.463px;
+    height: 662.07px; */
+    /* flex-shrink: 0; */
+}
+
+.sec5-obak-girl{
+    width: 429px;
+    height: 433px;
+    /* flex-shrink: 0; */
+    display: block;
+    justify-content: center;
+    margin: auto;
+    margin-left: 983px;
+    margin-top: -672px;
+}
+
+.sec5-discount-img{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-left: 825px;
+    margin-top: -350px;
+}
+
+/* section 6 */
+
+.sec6-txt{
+
+    margin-top: 200px;
+}
+
+.sec6-txt1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 400px;
+    margin-left: 100px;
+}
+
+.sec6-txt2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 100px;
+    margin-top: -5px;
+}
+
+.sec6-txt3{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    margin-left: 100px;
+    margin-top: -15px;
+}
+
+.sec6-img1{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.sec6-img2{
+    margin-left: 20px;
+}
+
+.sec6-img3{
+    margin-left: 20px;
+}
+
+.sec6-img4{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.sec6-img5{
+    margin-left: 20px;
+}
+
+.sec6-img6{
+    margin-left: 20px;
+}
