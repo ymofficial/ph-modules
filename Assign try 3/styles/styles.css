@@ -1,21 +1,40 @@
-.banner-text{
+/* .banner-text{
     text-align: center;
     margin: auto;
     color: white;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     margin-top: -40px;
-}
+} */
 /* .banner-image{
     display: block;
     margin: auto;
 } */
-.banner-text > .bnr-t1{
-
+.bnr-t1{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 160px;
+    
+}
+.bnr-t2{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; /* 131.944% */
+    margin-top: -30px;
 }
 
 .img-div{
     /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     background: url(../resources/Banner\ Image.png);
+
     background-repeat: no-repeat;
     display: block;
     margin: auto;
@@ -217,7 +236,7 @@ span{
     line-height: normal;
     display: flex;
     margin-top: -275px;
-    margin-left: 1200px;
+    margin-left: 1100px;
 }
 .txt-2024-extra{
     color: rgba(7, 2, 17, 0.60);
@@ -226,7 +245,7 @@ span{
     font-style: normal;
     font-weight: 400;
     line-height: 32px; /* 160% */
-    margin-left: 1200px;
+    margin-left: 1100px;
     margin-top: -16px;
 }
 
@@ -241,6 +260,14 @@ span{
     margin-top: -250px;
     background: lightgray;
 
+}
+
+.sec4-img2{
+    width: 140px;
+    height: 140px;
+    /* flex-shrink: 0; */
+    margin-top: -100px;
+    margin-left: 1100px;
 }
 
 /* section 5 */
