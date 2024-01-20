@@ -1,0 +1,36 @@
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    /* display:flex;
+    justify-content: space-around; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input{
+    display: block;
+    margin: 20px;
+}
+
+form{
+    /* margin-top: 50px; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+
+.form-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+form h3{
+    text-align: center;
+    font-weight:bolder;
+}
