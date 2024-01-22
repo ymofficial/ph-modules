@@ -34,6 +34,12 @@
 .img-div{
     /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     background: url(../resources/Banner\ Image.png);
+    
+    background-color: #070211;
+    opacity: 0.9;
+    position:relative;
+    top: 0;
+    left: 0;
 
     background-repeat: no-repeat;
     display: block;
@@ -45,7 +51,8 @@
     /* border: 16px; */
     margin-top: 50px;
     /* border-radius: 20px;    */
-}
+
+
 
 /* main css */
 

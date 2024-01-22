@@ -1,0 +1,29 @@
+/* header styles */
+header{
+    padding: 30px 130px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav  li{
+    list-style: none;
+    margin-right: 45px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    /* text-align: center;
+    font-family: Mulish; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
