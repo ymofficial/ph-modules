@@ -10,6 +10,7 @@ nav{
 
 nav > ul{
     display: flex;
+    /* margin-top: 40px; */
 }
 
 nav  li{
@@ -20,10 +21,33 @@ nav  li{
 nav li a {
     text-decoration: none;
     color: var(--Dark-02, #424247);
-    /* text-align: center;
-    font-family: Mulish; */
+    font-family: Mulish;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    /* margin-top: 25px; */
+
 }
+.logo-text{
+    display: flex;
+}
+
+.logo-img{
+    width: 48px;
+    height: 56.008px;
+    /* margin-top: 25px; */
+}
+.logo-title{
+    margin-left: 16px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 5px;
+}
+ span{
+    color: #FF5400;
+ }
