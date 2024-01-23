@@ -1,6 +1,6 @@
 /* header styles */
 header{
-    padding: 30px 130px;
+    padding: 30px 130px; /* top-bottom:30px and left-right:130px */
 }
 nav{
     display: flex;
@@ -50,4 +50,47 @@ nav li a {
 }
  span{
     color: #FF5400;
+ }
+
+ /* banner div of header  */
+.banner{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+ .banner-img{
+    
+     /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    color:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    display: block;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 16px;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    
+ }
+
+ .banner-title{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    margin-top: -425px;
+ }
+ .sub-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
  }
