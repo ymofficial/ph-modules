@@ -841,11 +841,4 @@ footer{
     font-weight: 400;
    }
 
-   li{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: auto;
-   }
-
 } 
