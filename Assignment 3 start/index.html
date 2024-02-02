@@ -12,16 +12,16 @@
 <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
-<body>
-    <header>
+<body class="body bg-white">
+    <header class="container mx-auto ">
         <nav>
-          <div class="navbar bg-base-100">
+          <div class="navbar bg-white">
             <div class="navbar-start">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white rounded-box w-52">
                   <li><a>Home</a></li>
                   <li><a>About</a></li>
                   <li><a>Pages</a></li>
@@ -45,9 +45,54 @@
             </div>
           </div>
         </nav>
+
+        <!-- slider or carousel  -->
+        <div class="carousel w-[1100px] h-[550px]">
+
+          <!-- banner texts  -->
+          <!-- <div class="bnr-txt">
+            <h4>Meet all the heroes from the field</h4>
+            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam 
+              turpis placerat dolor. Purus urna in sit nullam proin.</p>
+          </div> -->
+
+          <!-- sliders  -->
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="Images/1.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle">❮</a> 
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="Images/2.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle">❮</a> 
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="Images/3.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle">❮</a> 
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide4" class="carousel-item relative w-full">
+            <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide3" class="btn btn-circle">❮</a> 
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
+
     </header>
 
-    <main>
+    <hr class="breakline mx-auto">
+
+    <main class="main bg-white">
+      <p></p>
 
     </main>
     
