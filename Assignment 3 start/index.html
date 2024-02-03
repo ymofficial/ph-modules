@@ -1,7 +1,7 @@
 <!-- Assignment 3 with Tailwind with Daisy UI  -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,7 @@
 </head>
 <body class="body bg-white">
     <header class="container mx-auto items-center">
-        <nav>
+        <nav class="w-3/4 mx-auto mb-8">
           <div class="navbar bg-white">
             <div class="navbar-start">
               <div class="dropdown">
@@ -46,33 +46,25 @@
           </div>
         </nav>
 
-        <!-- slider or carousel  -->
-        <div class="carousel w-[1100px] h-[550px] ">
+        <!-- slider  -->
 
-          <!-- banner texts  -->
-          <!-- <div class="bnr-txt">
-            <h4>Meet all the heroes from the field</h4>
-            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam 
-              turpis placerat dolor. Purus urna in sit nullam proin.</p>
-          </div> -->
-
-          <!-- sliders  -->
+        <div class="carousel mx-60 h-[550px] ">
           <div id="slide1" class="carousel-item relative w-full">
-            <img src="Images/1.png" class="w-full" />
+            <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide4" class="btn btn-circle">❮</a> 
               <a href="#slide2" class="btn btn-circle">❯</a>
             </div>
           </div> 
           <div id="slide2" class="carousel-item relative w-full">
-            <img src="Images/2.png" class="w-full" />
+            <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide1" class="btn btn-circle">❮</a> 
               <a href="#slide3" class="btn btn-circle">❯</a>
             </div>
           </div> 
           <div id="slide3" class="carousel-item relative w-full">
-            <img src="Images/3.png" class="w-full" />
+            <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide2" class="btn btn-circle">❮</a> 
               <a href="#slide4" class="btn btn-circle">❯</a>
@@ -86,6 +78,7 @@
             </div>
           </div>
         </div>
+    
 
     </header>
 
@@ -93,9 +86,10 @@
 
     <main class="main bg-white">
       <div class="container1 text-center">
-        <h3>Professional Hockeys Club</h3>
+        <h3 class="">Professional Hockeys Club</h3>
         <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
       </div>
+
 
     </main>
     
