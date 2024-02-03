@@ -14,8 +14,17 @@
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 
+        <!-- Google-fonts "Manrope"  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap" rel="stylesheet">
+      <style>
+        .font-manrope{
+          font-family: 'Manrope', sans-serif; 
+        }
+      </style>
 </head>
-<body class="body bg-white">
+<body class="body bg-white font-manrope">
     <header class="container mx-auto items-center">
         <nav class="w-3/4 mx-auto mb-8">
           <div class="navbar bg-white">
@@ -44,14 +53,14 @@
               </ul>
             </div>
             <div class="navbar-end">
-              <a class="btn btn-error">Get Ticket</a>
+              <a class="btn btn-error text-white">Get Ticket</a>
             </div>
           </div>
         </nav>
 
         <!-- slider  -->
 
-        <div class="carousel mx-52 h-[500px] ">
+        <div class="carousel mx-52 md:h-[500px] ">
           <div id="slide1" class="carousel-item relative w-full">
             <img src="Images/1.png" class="w-full" />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -101,7 +110,7 @@
       <!-- progress  -->
       <!-- container1 -->
 
-      <div class="container1 mt-24 text-center flex justify-center gap-5 ">
+      <div class="container1 mt-24 text-center md:flex justify-center gap-5 ">
         
       <div class="box1">
       <div class="radial-progress " style="--value:87;" role="progressbar">87%</div>
@@ -132,7 +141,7 @@
 
   
 
-      <section class="mx-52">
+      <section class="md:mx-52">
         <div class="container2">
           <div class="text text-center mt-40">
             <h4 class="text-4xl font-bold">Program Section</h4>
@@ -142,9 +151,9 @@
         </div>
 
         <!-- card-1 -->
-      <div class="main-card lg: flex gap-6">
+      <div class="main-card md:flex gap-6">
         <!-- card-1 -->
-        <div class="card w-[573px] bg-base-100 shadow-xl image-full mt-20">
+        <div class="card md:w-[573px] bg-base-100 shadow-xl image-full mt-20">
           <figure><img src="Images/2.png" alt="Shoes" /></figure>
           <div class="card-body">
             <h2 class="card-title">Shoes!</h2>
@@ -156,7 +165,7 @@
         </div>
 
         <!-- card-2 -->
-        <div class="card w-[573px] bg-base-100 shadow-xl image-full mt-20">
+        <div class="card md:w-[573px] bg-base-100 shadow-xl image-full mt-20">
           <figure><img src="Images/2.png" alt="Shoes" /></figure>
           <div class="card-body">
             <h2 class="card-title">Shoes!</h2>
@@ -169,7 +178,7 @@
       </div>
 
       <!-- card-3  -->
-      <div class="card w-[1170px] bg-base-100 shadow-xl image-full mt-6">
+      <div class="card sd:w-[573px] ld:w-[1170px] bg-base-100 shadow-xl image-full mt-6">
         <figure><img src="Images/4.png" alt="Shoes" /></figure>
         <div class="card-body">
           <h2 class="card-title">Shoes!</h2>
@@ -188,9 +197,9 @@
         <p class="mt-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br>dolor. Purus urna in sit nullam proin.</p>
         </div>
 
-        <div class="new-sec-cards grid grid-cols-2 gap-5 mt-24">
+        <div class="new-sec-cards md:grid grid-cols-2 gap-5 mt-24">
           <!-- card-1  -->
-          <div class="card card-side bg-base-100 shadow-xl w-[573px] mx-52">
+          <div class="card card-side bg-base-100 shadow-xl md:w-[573px] md:mx-52">
             <figure><img src="Images/5.png" alt="Movie"/></figure>
             <!-- star  -->
             <div class="star flex gap-4">
@@ -218,7 +227,7 @@
             </div>
           </div>
           <!-- card-2  -->
-          <div class="card card-side bg-base-100 shadow-xl w-[573px] mx-52 ml-6">
+          <div class="card card-side bg-base-100 shadow-xl md:w-[573px] md:mx-52 ml-6">
             <figure><img src="Images/6.png" alt="Movie"/></figure>
             <div class="card-body">
               <h2 class="card-title">World Cup Flags Football</h2>
@@ -229,7 +238,7 @@
             </div>
           </div>
           <!-- card-3  -->
-          <div class="card card-side bg-base-100 shadow-xl w-[573px] mx-52">
+          <div class="card card-side bg-base-100 shadow-xl md:w-[573px] md:mx-52">
             <figure><img src="Images/7.png" alt="Movie"/></figure>
             <div class="card-body">
               <h2 class="card-title">Cap For Hockeys</h2>
@@ -240,7 +249,7 @@
             </div>
           </div>
           <!-- card-4  -->
-          <div class="card card-side bg-base-100 shadow-xl w-[573px] mx-52 ml-6">
+          <div class="card card-side bg-base-100 shadow-xl md:w-[573px]  md:mx-52 ml-6">
             <figure><img src="Images/8.png" alt="Movie"/></figure>
             <div class="card-body">
               <h2 class="card-title">World Cup Flags Football</h2>
@@ -251,7 +260,7 @@
             </div>
           </div>
           <!-- card-5  -->
-          <div class="card card-side bg-base-100 shadow-xl w-[573px] mx-52">
+          <div class="card card-side bg-base-100 shadow-xl md:w-[573px]  md:mx-52">
             <figure><img src="Images/9.png" alt="Movie"/></figure>
             <div class="card-body">
               <h2 class="card-title">World Cup Flags Football</h2>
@@ -262,7 +271,7 @@
             </div>
           </div>
           <!-- card-6  -->
-          <div class="card card-side bg-base-100 shadow-xl w-[573px] mx-52 ml-6">
+          <div class="card card-side bg-base-100 shadow-xl md:w-[573px] md:mx-52 ml-6">
             <figure><img src="Images/10.png" alt="Movie"/></figure>
             <div class="card-body">
               <h2 class="card-title">World Cup Flags Football</h2>
@@ -285,7 +294,7 @@
         <p class="mt-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br>dolor. Purus urna in sit nullam proin.</p>
         </div>
 
-        <div class="qna-div flex">
+        <div class="qna-div md:flex">
           <div class="qna-pic mx-52 mt-20 ">
             <img src="Images/11.png" alt="">
           </div>
@@ -358,9 +367,9 @@
             <p class="mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br>
               dolor. Purus urna in sit nullam proin.</p>
             </div>
-          <div class="getin-extra flex">
+          <div class="getin-extra md:flex ">
             <!-- left-side  -->
-            <div class="leftside mx-52 mt-20">
+            <div class="leftside md:mx-52 mt-20">
               <div class="left1">
                 <img src="Images/Group 1171275317.png" alt="">
                 <p class="mt-6">Phone Number : <br> 
@@ -382,7 +391,7 @@
 
             <!-- right side  -->
             <div class="rightside mt-20  gap-6">
-              <div class="parent1 flex gap-6">
+              <div class="parent1 md:flex gap-6">
                               <!-- 1  -->
               <label class="form-control w-full max-w-xs">
                 <div class="label">
@@ -403,7 +412,7 @@
               </label>
               </div>
               
-              <div class="parent2 flex gap-6">
+              <div class="parent2 md:flex gap-6">
                 <!-- 3  -->
               <label class="form-control w-full max-w-xs">
                 <div class="label">
@@ -427,7 +436,7 @@
               <!-- msg box  -->
               <div class="msgbox">
                 <p class="text-xl font-bold mt-6">Message</p>
-                <textarea class="textarea textarea-primary w-[672px] h-[300px] mt-6" placeholder="Bio"></textarea>
+                <textarea class="textarea textarea-primary md:w-[672px] md:h-[300px] mt-6" placeholder="Bio"></textarea>
               </div>
 
             </div>
@@ -458,7 +467,7 @@
     
     <!-- footer  -->
     <footer class="footer p-10 bg-base-200 text-base-content">
-      <aside class="ml-32">
+      <aside class="md:ml-32">
         <p>ACME Industries Ltd.<br>Providing reliable tech since 1992</p>
       </aside> 
       <nav>
