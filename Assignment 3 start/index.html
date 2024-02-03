@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 3</title>
 
+    <!-- font awesome link  -->
+    <script src="https://kit.fontawesome.com/8df2dd56c0.js" crossorigin="anonymous"></script>
+
     <!-- Daisy UI and Tailwind link  -->
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
@@ -182,27 +185,44 @@
       <section>
         <div class="sec-card2-txt text-center mt-24">
           <h3 class="text-4xl font-bold">Our New Products</h3>
-        <p class="mt-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br>dolor. Purus urna in sit nullam proin. </p>
+        <p class="mt-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br>dolor. Purus urna in sit nullam proin.</p>
         </div>
 
         <div class="new-sec-cards grid grid-cols-2 gap-5 mt-24">
           <!-- card-1  -->
           <div class="card card-side bg-base-100 shadow-xl w-[573px] mx-52">
             <figure><img src="Images/5.png" alt="Movie"/></figure>
-            <div class="card-body">
-              <h2 class="card-title">New movie is released!</h2>
-              <p>Click the button to watch on Jetflix app.</p>
-              <div class="card-actions justify-end">
-                <button class="btn btn-primary">Watch</button>
+            <!-- star  -->
+            <div class="star flex gap-4">
+              <div class="star-icon flex gap-2">
+                <i class="fa-solid fa-star"></i>
+                <p>5.0</p>
               </div>
+
+              
+            <!-- eye  -->
+              <div class="eye-icon flex gap-2">
+                <i class="fa-solid fa-eye"></i>
+                <p>20</p>
+              </div>
+
+              <!-- heart  -->
+              <div class="heart-icon flex gap-2">
+                <i class="fa-solid fa-heart"></i>
+                <p>200</p>
+              </div>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">World Cup Flags Football</h2>
+              <p>Dolor sit amet consectetur. Ut urna diam <br> quis sagittis.</p>
             </div>
           </div>
           <!-- card-2  -->
           <div class="card card-side bg-base-100 shadow-xl w-[573px] mx-52 ml-6">
             <figure><img src="Images/6.png" alt="Movie"/></figure>
             <div class="card-body">
-              <h2 class="card-title">New movie is released!</h2>
-              <p>Click the button to watch on Jetflix app.</p>
+              <h2 class="card-title">World Cup Flags Football</h2>
+              <p>Dolor sit amet consectetur. Ut urna diam <br> quis sagittis.</p>
               <div class="card-actions justify-end">
                 <button class="btn btn-primary">Watch</button>
               </div>
@@ -212,8 +232,8 @@
           <div class="card card-side bg-base-100 shadow-xl w-[573px] mx-52">
             <figure><img src="Images/7.png" alt="Movie"/></figure>
             <div class="card-body">
-              <h2 class="card-title">New movie is released!</h2>
-              <p>Click the button to watch on Jetflix app.</p>
+              <h2 class="card-title">Cap For Hockeys</h2>
+              <p>Dolor sit amet consectetur. Ut urna diam <br> quis sagittis.</p>
               <div class="card-actions justify-end">
                 <button class="btn btn-primary">Watch</button>
               </div>
@@ -223,8 +243,8 @@
           <div class="card card-side bg-base-100 shadow-xl w-[573px] mx-52 ml-6">
             <figure><img src="Images/8.png" alt="Movie"/></figure>
             <div class="card-body">
-              <h2 class="card-title">New movie is released!</h2>
-              <p>Click the button to watch on Jetflix app.</p>
+              <h2 class="card-title">World Cup Flags Football</h2>
+              <p>Dolor sit amet consectetur. Ut urna diam <br> quis sagittis.</p>
               <div class="card-actions justify-end">
                 <button class="btn btn-primary">Watch</button>
               </div>
@@ -234,8 +254,8 @@
           <div class="card card-side bg-base-100 shadow-xl w-[573px] mx-52">
             <figure><img src="Images/9.png" alt="Movie"/></figure>
             <div class="card-body">
-              <h2 class="card-title">New movie is released!</h2>
-              <p>Click the button to watch on Jetflix app.</p>
+              <h2 class="card-title">World Cup Flags Football</h2>
+              <p>Dolor sit amet consectetur. Ut urna diam <br> quis sagittis.</p>
               <div class="card-actions justify-end">
                 <button class="btn btn-primary">Watch</button>
               </div>
@@ -245,8 +265,8 @@
           <div class="card card-side bg-base-100 shadow-xl w-[573px] mx-52 ml-6">
             <figure><img src="Images/10.png" alt="Movie"/></figure>
             <div class="card-body">
-              <h2 class="card-title">New movie is released!</h2>
-              <p>Click the button to watch on Jetflix app.</p>
+              <h2 class="card-title">World Cup Flags Football</h2>
+              <p>Dolor sit amet consectetur. Ut urna diam <br> quis sagittis.</p>
               <div class="card-actions justify-end">
                 <button class="btn btn-primary">Watch</button>
               </div>
@@ -258,6 +278,75 @@
         </div>
       </section>
 
+      <!-- QNA  -->
+      <section>
+        <div class="sec-card2-txt text-center mt-24">
+          <h3 class="text-4xl font-bold">Clients Question</h3>
+        <p class="mt-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br>dolor. Purus urna in sit nullam proin.</p>
+        </div>
+
+        <div class="qna-div flex">
+          <div class="qna-pic mx-52 mt-20 ">
+            <img src="Images/11.png" alt="">
+          </div>
+          <div class="qna-form mt-20">
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" checked="checked" /> 
+              <div class="collapse-title text-xl font-medium">
+                Our Equipment
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+                Hockey Training
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+                Private Lessons
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+                Ski Touring
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+                Booking
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+                Pricings
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     
     <footer>
